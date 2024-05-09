@@ -14,9 +14,16 @@ h2{font-family: "Playfair Display", Times, serif; text-align:center;}
 h3 {font-family: "Playfair Display", Times, serif;
 }
 
+nav{ display: flex;
+   justify-content: space-between;
+   margin-left: 200px;
+   margin-right: 200px;}
+
 article {
   padding: 50px 0;
 }
+
+article p{text-align:left;}
 
 article div {
   text-align: center;
@@ -24,7 +31,7 @@ article div {
 }
 
 p {
-  line-height: 1.5;text-align:left;
+  line-height: 1.5;
 }
 
 /* The div container constrains the content width within the main container to 600px */
@@ -43,17 +50,21 @@ hr {
   border: 1px solid black;
 }
 
-/* Add your solution below */
+/* circle image */
 
 .image-circle {border-radius: 50%; border-color: #003049; border-width:2px; border-style:solid;
 }
 
+/* changing colors for hovering over links */ 
+
 a:hover {color: #f77f00;}
 
-a {
-  color:#d62828
-}
+/* changing color for anchor tags */ 
 
+a {
+  color:#d62828; margin:;
+}
+/* centering text for footer */
 footer {text-align:center}
 
 section{text-align:left;}
