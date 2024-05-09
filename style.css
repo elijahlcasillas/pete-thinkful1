@@ -16,8 +16,8 @@ h3 {font-family: "Playfair Display", Times, serif;
 
 nav{ display: flex;
    justify-content: space-between;
-   margin-left: 20px;
-   margin-right: 20px;}
+   margin-left: 100px;
+   margin-right: 100px;}
 
 article {
   padding: 50px 0;
